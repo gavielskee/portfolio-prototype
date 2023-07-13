@@ -1,23 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaviel's Beginner Portfolio</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
-<nav>
-    <h1>Gaviel's Portfolio</h1>
-    <ul>
-        <li>About Me</li>
-        <li>My Work</li>
-        <li>Contact Me</li>
-    </ul>
-</nav>
 
 <body>
-    <img src="assets/images/portrait_9116.jpg"/>
-    <h2>Gaviel Castro</h2>
-    
+    <header id="header">
+        <h1>Gaviel's Portfolio</h1>
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#my-work">Work</a>
+            <a href="#contact-info">Contact Me</a>
+        </nav>
+    </header>
+
+
+    <section class="content-section" id="about-me">
+        <h2 class="section-title">About Me</h2>
+        <div class="right-column">
+            <h3>Gaviel Castro
+                <p>I'm an aspiring software engineer and I am currently enrolled in this UCF Fullstack Webdevelopment Bootcamp for the purpose of honing my skills in order to accomplish the goal of finding the career that's right for me. I'm very new to the world of programming, but as time goes on, I only hope that my experience and knowledge will broaden which will lead to the creation of various projects.</p>
+            </h3>
+        </div>
+    </section>
+    <section class="content-section" id="my-work">
+        <h2 class="section-title">My Work</h2>
+        <div class="right-column" id="projects-container">
+            <div class="project" id="project-1">
+                <img src="assets/images/01-html-css-git-homework-demo.png" />
+                <p>Project 1</p>
+            </div>
+            <div class="project" id="project-2">
+                <img src="https://placehold.co/500x500" />
+                <p>Project 2</p>
+            </div>
+            <div class="project" id="project-3">
+                <img src="https://static.pexels.com/photos/270488/pexels-photo-270488.jpeg" />
+                <p>Project 3</p>
+            </div>
+            <div class="project" id="project-4">
+                <img src="https://placehold.co/500x500" />
+                <p>Project 4</p>
+            </div>
+            <div class="project" id="project-5">
+                <img src="https://placehold.co/500x500" />
+                <p>Project 5</p>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <footer class="content-section" id="contact-info">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="right-column">
+            <p>Email: gavielskee1@gmail.com</p>
+            <p>Phone: 510-875-9000</p>
+        </div>
+    </footer>
 </body>
+
 </html>
